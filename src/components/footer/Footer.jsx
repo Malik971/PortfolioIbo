@@ -8,13 +8,13 @@ const Footer = () => {
   return (
     <footer>
       {/* eslint-disable-next-line */}
-      <a href="#home" className="footer__logo">
+      <a href="#" className="footer__logo">
         Malik Ibo
       </a>
       <ul className="permalinks">
         <li>
           {/* eslint-disable-next-line */}
-          <a href="#home">Accueil</a>
+          <a href="#">Accueil</a>
         </li>
         <li>
           <a href="#about">Sur moi</a>
