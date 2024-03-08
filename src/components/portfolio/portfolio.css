@@ -22,6 +22,10 @@
   overflow: hidden;
 }
 
+.portfolio__item-image img {
+  height: 221.3px;
+}
+
 .portfolio__item > h3 {
   margin: 1.2rem 0 2rem;
 }

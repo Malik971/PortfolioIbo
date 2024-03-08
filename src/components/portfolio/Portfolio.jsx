@@ -3,7 +3,7 @@ import "./portfolio.css";
 import IMG1 from "../../assets/carnaval.jpg";
 import IMG2 from "../../assets/blog.png";
 import IMG3 from "../../assets/calculator.png";
-import IMG4 from "../../assets/brochure.png";
+import IMG4 from "../../assets/jeuchess.png";
 import IMG5 from "../../assets/Portfolio3.png";
 import IMG6 from "../../assets/burger-baner.png";
 
@@ -37,9 +37,9 @@ const data = [
   {
     id: 4,
     image: IMG4,
-    title: "React Brochure Site",
-    github: "https://github.com/Ade-mir/brochure-site",
-    demo: "https://deluxe-gumption-ef08f4.netlify.app/",
+    title: "JavaScript | HTML | Jeu d'échec",
+    github: "https://github.com/Malik971/jeuChess",
+    demo: "https://jeuchess.netlify.app/",
     brief: "https://github.com/Ade-mir/brochure-site/blob/main/README.md",
   },
   {
