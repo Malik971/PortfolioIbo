@@ -1,7 +1,7 @@
 import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/carnaval.jpg";
-import IMG2 from "../../assets/blog.png";
+import IMG2 from "../../assets/1-removebg-preview.png";
 import IMG3 from "../../assets/calculator.png";
 import IMG4 from "../../assets/jeuchess.png";
 import IMG5 from "../../assets/Portfolio3.png";
@@ -11,19 +11,19 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: "Site Carnaval Montpellier",
-    github: "https://github.com/Ade-mir/MERN-social-media-platform",
-    demo: "https://peaceful-cranachan-56056a.netlify.app/",
+    title: "HTML | CSS Site Carnaval Montpellier",
+    github: "https://github.com/Malik971/carnavalMontpellier",
+    demo: "https://carnaval-montpellier.netlify.app/",
     brief:
-      "https://www.canva.com/design/DAFapZZx0GI/205p6bLMxmlp8Z4OjkvcMw/view?utm_content=DAFapZZx0GI&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu",
+      "https://www.youtube.com/watch?v=P0HkigVqqLM",
   },
   {
     id: 2,
     image: IMG2,
-    title: "Python | Machine Learning",
+    title: "Wordpress | PHP | javascript Site Web",
     github: "https://github.com/Malik971/CoursPython6",
-    demo: "https://musical-puffpuff-ff26f2.netlify.app/",
-    brief: "https://github.com/Ade-mir/nextjs-blog/blob/main/README.md",
+    demo: "https://workinmusic.fr/",
+    brief: "https://www.youtube.com/@wimvideo1926",
   },
   {
     id: 3,
@@ -31,8 +31,7 @@ const data = [
     title: "JavaScript | HTML | CSS Calculator",
     github: "https://github.com/Malik971/calculatrices",
     demo: "https://fabulous-otter-35c137.netlify.app/",
-    brief:
-      "https://github.com/Ade-mir/javascript-calculator/blob/main/README.md",
+    brief:"https://www.youtube.com/watch?v=ybEAMlq_2Yk",
   },
   {
     id: 4,
@@ -44,19 +43,19 @@ const data = [
   },
   {
     id: 5,
+    image: IMG6,
+    title: "JavaScript | HTML | CSS SiteBurger",
+    github: "https://github.com/Malik971/SiteBurger",
+    demo: "https://main--site-burger.netlify.app/",
+    brief: "https://www.youtube.com/watch?v=V5w1OGknhlc",
+  },
+  {
+    id: 6,
     image: IMG5,
     title: "JavaScript | HTML | CSS Portfolio",
     github: "https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2",
     demo: "https://thriving-dragon-a3fcd9.netlify.app/",
     brief: "https://youtu.be/ldwlOzRvYOU",
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: "JavaScript | HTML | CSS SiteBurger",
-    github: "https://github.com/Malik971/SiteBurger",
-    demo: "https://animated-head-portfolio.netlify.app/",
-    brief: "https://youtu.be/pcFF_IIpMbc",
   },
 ];
 
@@ -83,7 +82,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio__item-cta">
                 <a href={demo} className="btn btn-primary">
-                  Live Demo
+                  Site Web
                 </a>
               </div>
             </article>

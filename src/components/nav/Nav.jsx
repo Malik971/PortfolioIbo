@@ -10,44 +10,41 @@ import { useState } from "react";
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
 
-  const handleNavClick = (e, anchor) => {
-    e.preventDefault();
-    setActiveNav(anchor);
-  };
+  
 
   return (
     <nav>
       <a
         href="#"
-        onClick={(e) => handleNavClick(e, "#")}
+        onClick={() => setActiveNav("#")}
         className={activeNav === "#" ? "active" : ""}
       >
         <AiOutlineHome />
       </a>
       <a
         href="#about"
-        onClick={(e) => handleNavClick(e, "#about")}
+        onClick={() => setActiveNav("#about")}
         className={activeNav === "#about" ? "active" : ""}
       >
         <AiOutlineUser />
       </a>
       <a
         href="#experience"
-        onClick={(e) => handleNavClick(e, "#experience")}
+        onClick={() => setActiveNav("#experience")}
         className={activeNav === "#experience" ? "active" : ""}
       >
         <BiBook />
       </a>
       <a
         href="#portfolio"
-        onClick={(e) => handleNavClick(e, "#portfolio")}
+        onClick={() => setActiveNav("#portfolio")}
         className={activeNav === "#portfolio" ? "active" : ""}
       >
         <RiServiceLine />
       </a>
       <a
         href="#contact"
-        onClick={(e) => handleNavClick(e, "#contact")}
+        onClick={() => setActiveNav("#contact")}
         className={activeNav === "#contact" ? "active" : ""}
       >
         <BiMessageSquareDetail />
