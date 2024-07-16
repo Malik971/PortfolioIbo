@@ -4,7 +4,7 @@ import IMG1 from "../../assets/carnaval.jpg";
 import IMG2 from "../../assets/1-removebg-preview.png";
 import IMG3 from "../../assets/calculator.png";
 import IMG4 from "../../assets/jeuchess.png";
-import IMG5 from "../../assets/Portfolio3.png";
+import IMG5 from "../../assets/remove-background.png";
 import IMG6 from "../../assets/burger-baner.png";
 
 const data = [
@@ -47,15 +47,13 @@ const data = [
     title: "JavaScript | HTML | CSS SiteBurger",
     github: "https://github.com/Malik971/SiteBurger",
     demo: "https://main--site-burger.netlify.app/",
-    brief: "https://www.youtube.com/watch?v=V5w1OGknhlc",
   },
   {
     id: 6,
     image: IMG5,
-    title: "JavaScript | HTML | CSS Portfolio",
-    github: "https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2",
-    demo: "https://thriving-dragon-a3fcd9.netlify.app/",
-    brief: "https://youtu.be/ldwlOzRvYOU",
+    title: "Python | C++ | React",
+    github: "https://github.com/Malik971/remove_Background",
+    demo: "https://removebackground971.streamlit.app/",
   },
 ];
 
