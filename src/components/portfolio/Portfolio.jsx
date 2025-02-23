@@ -14,8 +14,7 @@ const data = [
     title: "HTML | CSS Site Carnaval Montpellier",
     github: "https://github.com/Malik971/carnavalMontpellier",
     demo: "https://carnaval-montpellier.netlify.app/",
-    brief:
-      "https://www.youtube.com/watch?v=P0HkigVqqLM",
+    brief: "https://www.youtube.com/watch?v=P0HkigVqqLM",
   },
   {
     id: 2,
@@ -31,7 +30,7 @@ const data = [
     title: "JavaScript | HTML | CSS Calculator",
     github: "https://github.com/Malik971/calculatrices",
     demo: "https://fabulous-otter-35c137.netlify.app/",
-    brief:"https://www.youtube.com/watch?v=ybEAMlq_2Yk",
+    brief: "https://www.youtube.com/watch?v=ybEAMlq_2Yk",
   },
   {
     id: 4,
@@ -79,7 +78,7 @@ const Portfolio = () => {
                 {/* <a href={brief} className="btn">
                   Project Brief
                 </a> */}
-              
+
                 <a href={demo} className="btn btn-primary">
                   Site Web
                 </a>
