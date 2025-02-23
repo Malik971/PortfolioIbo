@@ -4,7 +4,7 @@ import IMG1 from "../../assets/carnaval.jpg";
 import IMG2 from "../../assets/1-removebg-preview.png";
 import IMG3 from "../../assets/calculator.png";
 import IMG4 from "../../assets/jeuchess.png";
-import IMG5 from "../../assets/Portfolio3.png";
+import IMG5 from "../../assets/image_t-shirt_3D.jpg";
 import IMG6 from "../../assets/burger-baner.png";
 
 const data = [
@@ -52,9 +52,9 @@ const data = [
   {
     id: 6,
     image: IMG5,
-    title: "JavaScript | HTML | CSS Portfolio",
-    github: "https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2",
-    demo: "https://thriving-dragon-a3fcd9.netlify.app/",
+    title: "Node.js | React | OpenAI API",
+    github: "https://github.com/Malik971/T-Shirt-3D",
+    demo: "t-shirt3d.netlify.app",
     brief: "https://youtu.be/ldwlOzRvYOU",
   },
 ];
@@ -76,11 +76,10 @@ const Portfolio = () => {
                 <a href={github} className="btn">
                   Github
                 </a>
-                <a href={brief} className="btn">
+                {/* <a href={brief} className="btn">
                   Project Brief
-                </a>
-              </div>
-              <div className="portfolio__item-cta">
+                </a> */}
+              
                 <a href={demo} className="btn btn-primary">
                   Site Web
                 </a>
