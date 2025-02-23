@@ -7,6 +7,7 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+import AgentMalik from "./components/chatbot/agentMalik";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Portfolio />
       <Testimonials />
       <Contact />
+      <AgentMalik />
       <Footer />
     </>
   );
