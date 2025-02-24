@@ -6,12 +6,12 @@ const AgentMalik = () => {
   useEffect(() => {
     window.VG_CONFIG = {
       ID: "9gzuivz3u6f2mekh",
-      region: "eu", // 'eu' ou 'na'
-      render: "popup", // ✅ Mode popup
+      region: "eu",
+      render: "popup", 
       stylesheets: [
         "https://vg-bunny-cdn.b-cdn.net/vg_live_build/styles.css",
       ],
-      autostart: false, // ✅ Désactiver le démarrage auto
+      autostart: false, 
     };
 
     const script = document.createElement("script");
