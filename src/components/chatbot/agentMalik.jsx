@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import "./AgentMalik.css";
 
 const AgentMalik = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,20 +30,7 @@ const AgentMalik = () => {
       
       {/* Chatbot pop-up */}
       {isOpen && (
-        <div
-          style={{
-            position: "fixed",
-            bottom: "90px",
-            right: "20px",
-            width: "400px",
-            height: "500px",
-            background: "#fff",
-            boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.3)",
-            borderRadius: "10px",
-            overflow: "hidden",
-            zIndex: 1000,
-          }}
-        >
+        <div className="chatbot-container">
           <div style={{ display: "flex", justifyContent: "flex-end", padding: "10px" }}>
             <button
               onClick={() => setIsOpen(false)}
